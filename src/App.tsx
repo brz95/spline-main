@@ -70,7 +70,7 @@ export default function App() {
       <div className="game-win">{isGameWin ? "Вы нашли Ван Гога!" : ""}</div>
       <div className="spline-scene">
         <Spline
-          scene="https://static-basket-02.wbbasket.ru/vol29/landings/march8_march.spline"
+          scene="https://static-basket-02.wbbasket.ru/vol29/landings/march/scene_n.splinecode"
           onSplineMouseDown={onSplineMouseDown}
           onLoad={onLoadSplineApp}
         />
